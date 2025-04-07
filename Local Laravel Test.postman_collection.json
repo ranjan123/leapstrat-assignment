@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "20fced2e-3124-40bd-90cc-acb5735dbf10",
+		"name": "Local Laravel Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "229899",
+		"_collection_link": "https://red-satellite-191319.postman.co/workspace/My-Workspace~91168890-c780-4ab4-83e3-ca5f80b670d4/collection/229899-20fced2e-3124-40bd-90cc-acb5735dbf10?action=share&source=collection_link&creator=229899"
+	},
+	"item": [
+		{
+			"name": "Search User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/search-user?name=Ranjan&email=email@gmail.com&gender=male&city=kolkata&country=india&limit=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"search-user"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Ranjan"
+						},
+						{
+							"key": "email",
+							"value": "email@gmail.com"
+						},
+						{
+							"key": "gender",
+							"value": "male"
+						},
+						{
+							"key": "city",
+							"value": "kolkata"
+						},
+						{
+							"key": "country",
+							"value": "india"
+						},
+						{
+							"key": "limit",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
